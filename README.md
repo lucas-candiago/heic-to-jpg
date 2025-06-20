@@ -2,11 +2,11 @@
 
 Este script converte imagens no formato `.heic` para `.jpg` com opção de compressão, utilizando Python, `pillow` e `pillow-heif`.
 
-## 🧰 Requisitos
+## Requisitos
 
 - Python 3.13+
 
-## ⚙️ Instalação
+## Instalação
 
 Clone o repositório:
 
@@ -29,7 +29,7 @@ Instale as dependências com o Poetry:
 poetry install
 ```
 
-## 🖼️ Uso
+## Uso
 
 
 ### Parâmetros
@@ -42,7 +42,7 @@ poetry install
 
 ---
 
-## 🐍 Exemplo de conversão via script
+## Exemplo de conversão via script
 
 ```bash
 python3
@@ -54,7 +54,7 @@ Lembre-se que a qualidade pode variar de 1 a 95
 
 ---
 
-## Exemplo direto No arquivo main.py
+## Exemplo direto no arquivo main.py
 
 Chame a função dentro do arquivo main.py
 
