@@ -38,7 +38,7 @@ poetry install
 |---------------|----------|---------------------------------------------------------------------------|
 | `input_path`  | `str`    | Caminho para o arquivo `.heic`                                            |
 | `output_path` | `str`    | (Opcional) Caminho de saída para o `.jpg`. Se não for passado, usa o nome original. |
-| `quality`     | `int`    | Qualidade da imagem `.jpg` (1-95). Quanto menor, mais compressão.         |
+| `quality`     | `int`    | Qualidade da imagem `.jpg` (1-95). Quanto menor, mais compressão. (Por padrão é 75)        |
 
 ---
 
