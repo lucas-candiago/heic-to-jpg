@@ -2,7 +2,7 @@ from PIL import Image
 import pillow_heif
 import os
 
-def convert_heic_to_jpg(input_path, output_path=None, quality=25):
+def convert_heic_to_jpg(input_path, output_path=None, quality=75):
     """
     Converte uma imagem HEIC para JPG com opção de compressão.
 
