@@ -20,6 +20,3 @@ def convert_heic_to_jpg(input_path, output_path=None, quality=75):
 
     image.save(output_path, format="JPEG", quality=quality, optimize=True)
     print(f"Imagem convertida com sucesso: {output_path} (qualidade: {quality})")
-
-
-convert_heic_to_jpg('img.HEIC')
